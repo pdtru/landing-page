@@ -44,7 +44,6 @@ a {
 .left-container {
     display: flex;
     flex-direction: column;
-    gap: 10px;
 }
 
 .hero-text {
@@ -54,12 +53,12 @@ a {
     width: 10em;
 }
 
-.secondary-text {
+.hero-subtext {
     font-size: 18px;
     color: #e5e7eb;
 }
 
-p.secondary-text {
+p.hero-subtext {
     width: 25em;
 }
 
@@ -88,3 +87,46 @@ p {
     color: #e5e7eb;
 }
 /* hero end */
+
+/* mid start */
+
+.mid-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+}
+
+.mid-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    padding-top: 50px;
+}
+
+.mid-container {
+    display: flex;
+    gap: 3em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.cell {
+    border: 4px;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #3882f6;
+    width: 10em;
+    height: 10em;
+}
+
+.mid-subtext {
+    text-align: center;
+    width: 9em;
+}
