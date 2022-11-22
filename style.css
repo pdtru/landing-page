@@ -6,7 +6,8 @@ body {
 /* header start */
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 510px;
     align-items: center;
     background-color: #1f2937;
 }
@@ -89,7 +90,6 @@ p {
 /* hero end */
 
 /* mid start */
-
 .mid-section {
     display: flex;
     flex-direction: column;
@@ -129,4 +129,32 @@ p {
 .mid-subtext {
     text-align: center;
     width: 9em;
+}
+/*mid end*/
+
+/*quote start*/
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 5em 10em;
+    margin-top: 5em;
+}
+
+.quote {
+    flex-shrink: 0;
+    align-self: center;
+    font-size: 36px;
+    font-weight: 100px;
+    font-style: italic;
+    color: #6d747d;
+    padding: 1em 387px;
+}
+
+.quote-end {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f2937;
+    width: 650px;
 }
