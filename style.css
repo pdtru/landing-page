@@ -30,6 +30,7 @@ a {
     font-size: 18px;
     color: #e5e7eb;
 }
+
 /* header end */
 
 /* hero start */
@@ -63,7 +64,8 @@ p.hero-subtext {
     width: 25em;
 }
 
-button {
+.hero-button {
+    font-size: 18px;
     font-weight: bold;
     color: #e5e7eb;
     background-color: #3882f6;
@@ -87,6 +89,7 @@ p {
     font-size: 18px;
     color: #e5e7eb;
 }
+
 /* hero end */
 
 /* mid start */
@@ -130,6 +133,7 @@ p {
     text-align: center;
     width: 9em;
 }
+
 /*mid end*/
 
 /*quote start*/
@@ -158,3 +162,38 @@ p {
     color: #1f2937;
     width: 650px;
 }
+
+/*quote ene*/
+
+/*bottom start*/
+.bottom-section {
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-container {
+    display: flex;
+    justify-content: center;
+    gap: 12em;
+    background-color: #3882f6;
+    border-radius: 12px;
+    margin: 6em 12em;
+    padding: 4em 0 4em 0;
+    width: 1200px
+}
+
+
+.bottom-button {
+    border-style: solid;
+    border-color: #e5e7eb;
+    font-size: 18px;
+    font-weight: bold;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    width: 8em;
+    border-radius: 8px;
+    padding: 8px 1em;
+}
+/*bottom end*/
+
+/*footer start*/
